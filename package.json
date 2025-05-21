@@ -1,0 +1,25 @@
+{
+  "name": "vnexpress-playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quynhnhu208/VnExpress-Playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quynhnhu208/VnExpress-Playwright/issues"
+  },
+  "homepage": "https://github.com/quynhnhu208/VnExpress-Playwright#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.18"
+  }
+}
