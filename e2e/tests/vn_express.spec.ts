@@ -8,10 +8,10 @@ interface Article {
   category: string;
 }
 
-test('Crawl VNExpress - Nhiều chuyên mục, mỗi chuyên mục 4 trang và lưu JSON', async ({ page }) => {
-    test.setTimeout(1_500_000);
+test('Crawl VNExpress', async ({ page }) => {
+    test.setTimeout(2_000_000);
     const homepage = 'https://vnexpress.net';
-    const maxPagesPerCategory = 4;
+    const maxPagesPerCategory = 5;
     const articles: Article[] = [];
 
     await page.goto(homepage, { waitUntil: 'domcontentloaded' });
