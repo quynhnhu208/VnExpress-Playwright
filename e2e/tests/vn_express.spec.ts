@@ -9,9 +9,9 @@ interface Article {
 }
 
 test('Crawl VNExpress', async ({ page }) => {
-    test.setTimeout(4_000_000);
+    test.setTimeout(8_000_000);
     const homepage = 'https://vnexpress.net';
-    const maxPagesPerCategory = 10;
+    const maxPagesPerCategory = 20;
     const articles: Article[] = [];
 
     await page.goto(homepage, { waitUntil: 'domcontentloaded' });
